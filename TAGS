@@ -1,24 +1,22 @@
 
-./app/Main.hs,340
+./app/Main.hs,52
 module Main Main0,1
-main main6,7
-main main7,8
-getRuleFilePath getRuleFilePath10,11
-getRuleFilePath getRuleFilePath11,12
-genRuleNumber genRuleNumber13,14
-genRuleNumber genRuleNumber14,15
-minRuleNumber minRuleNumber16,17
-minRuleNumber minRuleNumber17,18
-maxRuleNumber maxRuleNumber19,20
-maxRuleNumber maxRuleNumber20,21
+main main4,5
+main main5,6
 
 ./Setup.hs,15
 main main1,2
 
-./src/Lib.hs,65
-module LibLib0,1
-someFunc someFunc4,5
-someFunc someFunc5,6
+./src/Shams.hs,310
+module ShamsShams0,1
+genRuleNumber genRuleNumber9,10
+genRuleNumber genRuleNumber10,11
+getRuleFilePath getRuleFilePath12,13
+getRuleFilePath getRuleFilePath13,14
+maxRuleNumber maxRuleNumber15,16
+maxRuleNumber maxRuleNumber16,17
+minRuleNumber minRuleNumber18,19
+minRuleNumber minRuleNumber19,20
 
 ./test/Spec.hs,30
 main main0,1
