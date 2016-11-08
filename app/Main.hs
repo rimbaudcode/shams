@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import           Shams (genRuleNumber, getRuleFilePath)
 
 main :: IO ()
-main = someFunc
+main = putStr =<< readFile =<< getRuleFilePath =<< genRuleNumber
