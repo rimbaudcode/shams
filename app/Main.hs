@@ -8,7 +8,7 @@ main :: IO ()
 main = putStr =<< readFile =<< getRuleFilePath =<< genRuleNumber
 
 
-getRuleFilePath :: Show a => a -> IO FilePath
+getRuleFilePath :: Int -> IO FilePath
 getRuleFilePath rule = getDataFileName ("data" </> show rule <.> "txt")
 
 genRuleNumber :: IO Int
