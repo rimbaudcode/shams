@@ -8,14 +8,14 @@ main :: IO ()
 main = putStr =<< readFile =<< getRuleFilePath =<< genRuleNumber
 
 
-getRuleFilePath :: Int -> IO FilePath
-getRuleFilePath rule = getDataFileName ("data" </> show rule <.> "txt")
-
 genRuleNumber :: IO Int
 genRuleNumber = randomRIO (minRuleNumber, maxRuleNumber)
 
-minRuleNumber :: Int
-minRuleNumber = 1
+getRuleFilePath      :: Int -> IO FilePath
+getRuleFilePath rule = getDataFileName ("data" </> show rule <.> "txt")
 
 maxRuleNumber :: Int
 maxRuleNumber = 40
+
+minRuleNumber :: Int
+minRuleNumber = 1
