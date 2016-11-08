@@ -1,10 +1,10 @@
 name:                shams
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            40 Rules of Love, Shams of Tabriz
 description:         Please see README.md
 homepage:            https://github.com/rimbaudcode/shams#readme
 license:             BSD3
-license-file:        LICENSE
+license-file:        LICENSE.md
 author:              art rimbaud
 maintainer:          rimbaudcode[at]gmail(DoT)com
 copyright:           (c) 2016 rimbaudcode
@@ -20,7 +20,7 @@ library
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
-executable shams-exe
+executable shams
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
