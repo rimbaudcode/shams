@@ -1,8 +1,16 @@
 
-./app/Main.hs,52
+./app/Main.hs,340
 module Main Main0,1
-main main4,5
-main main5,6
+main main6,7
+main main7,8
+getRuleFilePath getRuleFilePath10,11
+getRuleFilePath getRuleFilePath11,12
+genRuleNumber genRuleNumber13,14
+genRuleNumber genRuleNumber14,15
+minRuleNumber minRuleNumber16,17
+minRuleNumber minRuleNumber17,18
+maxRuleNumber maxRuleNumber19,20
+maxRuleNumber maxRuleNumber20,21
 
 ./Setup.hs,15
 main main1,2
