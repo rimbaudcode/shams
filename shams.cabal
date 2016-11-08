@@ -28,7 +28,10 @@ executable shams
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
                      , shams
+                     , random >= 1.1 && < 1.2
+                     , filepath >= 1.4.1.0 && < 1.5
   default-language:    Haskell2010
+  other-modules:       Paths_shams
 
 test-suite shams-test
   type:                exitcode-stdio-1.0
