@@ -9,7 +9,11 @@
 - [X] update CHANGELOG
 - [X] update README
 
-** HOTFIXES [/]
+** HOTFIXES [0/1]
+*** TODO 0.1.0.2
+- [] bump version number
+- [] update CHANGElog
+- [] update README
 
 ** REPORTS [/]
 
