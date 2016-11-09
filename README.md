@@ -13,8 +13,4 @@ The moment you start looking for love, you start to change within and without.
 ```
 
 ## 40 Rules of Love
-The text was taken from _..._ avaible at
-
-``` zsh
-...
-```
+The text was taken from [40 Rules Of Love By SHAMS of Tabriz](https://witandwisdomwithfunandinfo.wordpress.com/2015/08/01/40-rules-of-love-by-shams-of-tabriz/).
