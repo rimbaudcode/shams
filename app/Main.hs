@@ -1,6 +1,8 @@
-module Main where
+{-# LANGUAGE ApplicativeDo #-}
 
-import           Shams (genRuleNumber, getRuleFilePath)
+module Main (main) where
+
+import Shams (genRuleNumber, getRuleFilePath)
 
 main :: IO ()
 main = putStr =<< readFile =<< getRuleFilePath =<< genRuleNumber
