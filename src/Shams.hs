@@ -1,6 +1,4 @@
-{-# LANGUAGE ApplicativeDo #-}
 
-module Shams
     ( genRuleNumber
     , getRuleFilePath
     ) where
