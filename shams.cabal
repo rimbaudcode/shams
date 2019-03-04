@@ -20,18 +20,65 @@ library
   exposed-modules:     Shams
   build-depends:       base >= 4.7 && < 5
                      , random >= 1.1 && < 1.2
-                     , filepath >= 1.4.1.0 && < 1.5
+                     , filepath >= 1.4 && < 1.5
   other-modules:       Paths_shams
   default-language:    Haskell2010
+  ghc-options:       -fdefer-type-errors
+                     -Wall
+                     -fforce-recomp
+                     -fobject-code
+                     -fprof-auto
+                     -funbox-strict-fields
+                     -fwarn-implicit-prelude
+                     -fwarn-incomplete-patterns
+                     -fwarn-incomplete-record-updates
+                     -fwarn-incomplete-uni-patterns
+                     -fwarn-missing-signatures
+                     -fwarn-monomorphism-restriction
+                     -fwarn-name-shadowing
+                     -fwarn-orphans
+                     -fwarn-overlapping-patterns
+                     -fwarn-tabs
+                     -fwarn-unused-do-bind
+                     -fwarn-unused-imports
+                     -j4
+                     -O2
+                     -fexcess-precision
+                     -optc-O2
 
 executable shams
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base
+  build-depends:       base >= 4.7 && < 5
                      , shams
   default-language:    Haskell2010
   other-modules:       Paths_shams
+  ghc-options:       -fdefer-type-errors
+                     -Wall
+                     -fforce-recomp
+                     -fobject-code
+                     -fprof-auto
+                     -funbox-strict-fields
+                     -fwarn-implicit-prelude
+                     -fwarn-incomplete-patterns
+                     -fwarn-incomplete-record-updates
+                     -fwarn-incomplete-uni-patterns
+                     -fwarn-missing-signatures
+                     -fwarn-monomorphism-restriction
+                     -fwarn-name-shadowing
+                     -fwarn-orphans
+                     -fwarn-overlapping-patterns
+                     -fwarn-tabs
+                     -fwarn-unused-do-bind
+                     -fwarn-unused-imports
+                     -j4
+                     -rtsopts
+                     -threaded
+                     -with-rtsopts=-N
+                     -O2
+                     -fexcess-precision
+                     -optc-O2
 
 test-suite shams-test
   type:                exitcode-stdio-1.0
